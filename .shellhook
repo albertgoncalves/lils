@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+export WD=$PWD
+
+for x in build out; do
+    if [ ! -d "$WD/$x" ]; then
+        mkdir "$WD/$x"
+    fi
+done
