@@ -2,7 +2,7 @@
 
 \paper {
   indent            = 0\mm
-  line-width        = 200\mm
+  paper-width       = 1000\mm
   oddFooterMarkup   = ##f
   oddHeaderMarkup   = ##f
   bookTitleMarkup   = ##f
