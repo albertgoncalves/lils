@@ -15,7 +15,7 @@ global = {
   d4  f   e   d   |   % cantus firmus
 
   % b4  c   c   b   |   % solution
-  e4  d   c   b   |   % attempt 1
+  e4  d   c   e   |   % attempt 1
   g4  f   a   g   |   % cantus firmus
 
   % d4  cis d2      |   % solution
