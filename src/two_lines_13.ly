@@ -10,16 +10,16 @@ global = {
 % See `https://www.youtube.com/watch?v=b5PoTBOj7Xc`.
 
 \parallelMusic voiceUpper, voiceLower {
-  c2    b     |
+  e2    f     |
   c,2   d     |   % cantus firmus
 
-  a2    g     |
+  d2    g     |
   f2    e     |   % cantus firmus
 
-  a2    b     |
+  e2    d     |
   c2    g'    |   % cantus firmus
 
-  d2    e     |
+  d2    c     |
   f2    e     |   % cantus firmus
 
   b2    c     |
@@ -28,7 +28,7 @@ global = {
 
 \score {
   <<
-    \new Staff \with { midiInstrument = "clarinet" } {
+    \new Staff \with { midiInstrument = "trombone" } {
       \global
       \clef treble
       \relative c''
