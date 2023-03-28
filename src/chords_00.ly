@@ -10,14 +10,14 @@
     \time   4/4
     \tempo  4 = 75
     \clef treble
-    \relative c'
-
-    << << e2    b'    dis     >>  \\ g,,2 >>
-    << << fis'  b'    d''     >>  \\ g    >>
-    << << e'    bes'  d''     >>  \\ g    >>
-    << << ees'  aes'  c''     >>  \\ g    >>
-    << << d'    f'    a'  b'  >>  \\ g    >>
-    << << e'    g'    a'  c'' >>  \\ c    >>
+    \relative c' {
+      << << e2    b'    dis     >>  \\ g,,2 >>
+      << << fis'  b     d       >>  \\ g,,  >> |
+      << << e'    bes'  d       >>  \\ g,,  >>
+      << << ees'  aes   c       >>  \\ g,   >> |
+      << << d'    f     a   b   >>  \\ g,   >>
+      << << e'    g     a   c   >>  \\ c,,  >>
+    }
   }
   \layout { }
   \midi { }
