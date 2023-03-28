@@ -38,4 +38,3 @@ global = {
   \layout { }
   \midi { }
 }
-
