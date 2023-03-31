@@ -1,12 +1,9 @@
-#(set-global-staff-size 50)
+#(set-default-paper-size "letter" 'landscape)
 
 \paper {
-  indent            = 0\mm
-  paper-width       = 475\mm
-  paper-height      = 10000\mm
-  oddFooterMarkup   = ##f
-  oddHeaderMarkup   = ##f
-  bookTitleMarkup   = ##f
-  scoreTitleMarkup  = ##f
-  print-page-number = ##f
+  indent = 0\mm
+}
+
+\header {
+  tagline = ##f
 }
