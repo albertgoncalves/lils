@@ -25,10 +25,7 @@ global = {
   \new Staff \with { midiInstrument = "violin" } {
     \global
     \clef treble
-    <<
-      \relative c'' \voiceUpper \\
-      \relative c'  \voiceLower
-    >>
+    << \relative c'' \voiceUpper \\ \relative c'  \voiceLower >>
   }
   \layout { }
   \midi { }

@@ -27,14 +27,12 @@ global = {
 }
 
 \score {
-  <<
-    \new Staff \with { midiInstrument = "trombone" } {
-      \global
-      \clef treble
-      \relative c''
-      << \voiceUpper \\ \voiceLower >>
-    }
-  >>
+  \new Staff \with { midiInstrument = "trombone" } {
+    \global
+    \clef treble
+    \relative c''
+    << \voiceUpper \\ \voiceLower >>
+  }
   \layout { }
   \midi { }
 }

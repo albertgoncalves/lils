@@ -36,14 +36,12 @@ global = {
 }
 
 \score {
-  <<
-    \new Staff \with { midiInstrument = "clarinet" } {
-      \global
-      \clef treble
-      \relative c''
-      << \voiceUpper \\ \voiceLower >>
-    }
-  >>
+  \new Staff \with { midiInstrument = "clarinet" } {
+    \global
+    \clef treble
+    \relative c''
+    << \voiceUpper \\ \voiceLower >>
+  }
   \layout { }
   \midi { }
 }

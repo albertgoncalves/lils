@@ -11,7 +11,7 @@ global = {
 
 \parallelMusic voiceUpper, voiceLower {
   c2    d   | % cantus firmus
-  c,2   f   |
+  c2    f   |
 
   f2    e   | % cantus firmus
   d2    e   |
@@ -27,14 +27,11 @@ global = {
 }
 
 \score {
-  <<
-    \new Staff \with { midiInstrument = "vibraphone" } {
-      \global
-      \clef tenor
-      \relative c'
-      << \voiceUpper \\ \voiceLower >>
-    }
-  >>
+  \new Staff \with { midiInstrument = "vibraphone" } {
+    \global
+    \clef tenor
+    << \relative c' \voiceUpper \\ \relative c \voiceLower >>
+  }
   \layout { }
   \midi { }
 }
