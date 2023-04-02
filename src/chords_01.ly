@@ -3,11 +3,11 @@
 \include "page.ly"
 
 global = {
-  \time   4/4
-  \tempo  4 = 75
+  \time  4/4
+  \tempo 4 = 75
 }
 
-% NOTE: See `https://www.youtube.com/watch?v=zYjsOP7sju8`.
+% NOTE: See `https://youtu.be/zYjsOP7sju8?t=397`.
 
 \score {
   <<
@@ -15,10 +15,10 @@ global = {
       \global
       \clef treble
       \relative c' {
-        << e2   g   c     >> << d,   g   d'    >> |
-        << ees, g   c     >> << d,   f   bes   >> |
-        << c,   e   gis   >> << b,   d   g     >> |
-        << c,1  e   fis   >>
+        < e    g   c     >2 < d    g   d'   > |
+        < ees  g   c     >  < d    f   bes  > |
+        < c    e   gis   >  < b    d   g    > |
+        < c    e   fis   >1
       }
     }
     \new Staff \with { midiInstrument = "cello" } {

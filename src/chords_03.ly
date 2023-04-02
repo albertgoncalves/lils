@@ -13,14 +13,14 @@ global = {
       \global
       \clef "treble_8"
       \relative c {
-        << b2   d     f   a   >>  << e    gis   bis   d   >>  |
-        << a    c     e   fis >>  r                           |
+        < b    d     f   a   >2 < e    gis   bis   d   >  |
+        < a    c     e   fis >  r                         |
 
-        << b,,  f'    a   d   >>  << e,,  d'    gis   bis >>  |
-        << a,   e'    fis c'  >>  r                           |
+        < b,   f'    a   d   >  < e,   d'    gis   bis >  |
+        < a    e'    fis c'  >  r                         |
 
-        << b,   a'    d   f   >>  << e,   bis'  d     gis >>  |
-        << a,,  fis'  c'  e   >>  r                           |
+        < b    a'    d   f   >  < e    bis'  d     gis >  |
+        < a,   fis'  c'  e   >  r                         |
       }
     }
   >>
