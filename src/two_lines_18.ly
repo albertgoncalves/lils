@@ -3,8 +3,8 @@
 \include "page.ly"
 
 global = {
-  \time   4/4
-  \tempo  4 = 100
+  \time  4/4
+  \tempo 4 = 100
 }
 
 % See `https://youtu.be/J0Xkhgw-oPM?t=389`.

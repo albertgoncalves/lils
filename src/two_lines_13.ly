@@ -1,10 +1,10 @@
-\version "2.22.2"
+\version "2.24.1"
 
 \include "page.ly"
 
 global = {
-  \time   4/4
-  \tempo  4 = 100
+  \time  4/4
+  \tempo 4 = 100
 }
 
 % See `https://www.youtube.com/watch?v=b5PoTBOj7Xc`.
@@ -30,8 +30,7 @@ global = {
   \new Staff \with { midiInstrument = "trombone" } {
     \global
     \clef treble
-    \relative c''
-    << \voiceUpper \\ \voiceLower >>
+    \relative c'' << \voiceUpper \\ \voiceLower >>
   }
   \layout { }
   \midi { }

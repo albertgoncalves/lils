@@ -1,10 +1,10 @@
-\version "2.22.2"
+\version "2.24.1"
 
 \include "page.ly"
 
 global = {
-  \time   4/4
-  \tempo  4 = 85
+  \time  4/4
+  \tempo 4 = 85
 }
 
 \parallelMusic voiceUpper, voiceLower {
@@ -23,14 +23,12 @@ global = {
     \new Staff \with { midiInstrument = "oboe" } {
       \global
       \clef treble
-      \relative c'
-      \voiceUpper
+      \relative c' \voiceUpper
     }
     \new Staff \with { midiInstrument = "cello" } {
       \global
       \clef bass
-      \relative c
-      \voiceLower
+      \relative c \voiceLower
     }
   >>
   \layout { }

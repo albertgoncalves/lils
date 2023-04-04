@@ -28,16 +28,14 @@ global = {
   <<
     \new Staff \with { midiInstrument = "clarinet" } {
       \global
-      \set Staff.midiMaximumVolume = #0.5
       \clef treble
-      \relative c''
-      \voiceUpper
+      \relative c'' \voiceUpper
     }
     \new Staff \with { midiInstrument = "bassoon" } {
       \global
+      \set Staff.midiMaximumVolume = #0.75
       \clef treble
-      \relative c'
-      \voiceLower
+      \relative c' \voiceLower
     }
   >>
   \layout { }

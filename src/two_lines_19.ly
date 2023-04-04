@@ -31,14 +31,12 @@ global = {
     \new Staff \with { midiInstrument = "oboe" } {
       \global
       \clef treble
-      \relative c''
-      \voiceUpper
+      \relative c'' \voiceUpper
     }
     \new Staff \with { midiInstrument = "bassoon" } {
       \global
       \clef bass
-      \relative c
-      \voiceLower
+      \relative c \voiceLower
     }
   >>
   \layout { }
