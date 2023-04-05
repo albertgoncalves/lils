@@ -15,14 +15,14 @@ global = {
       \global
       \clef treble
       \relative c'' {
-        < d   bes g   >4
-        < a   d   f   >
+        < bes d   g   >4
+        < a   d   a'  >
         < bes ees g   >
         < c   ees g   >   |
         < bes d   g   >
         < a   d   fis >
         < bes d   g   >2  |
-        < a   c   f   >4
+        < f   c'  f   >4
         < f   bes d   >
         < ees g   c   >2  |
         < d   g   bes >4

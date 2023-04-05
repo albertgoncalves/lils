@@ -22,10 +22,10 @@ global = {
         < e   a   c   >   |
         < e   b'  e   >
         < e   a   c   >   |
-        < gis b   e   >
-        < a   c       >   |
-        < g   c   e   >
-        < f   a   c   >   |
+        < e   gis b   >
+        < c   a'      >   |
+        < c   g'  c   >
+        < c   f   a   >   |
         < e   g   c   >1  |
       }
     }
