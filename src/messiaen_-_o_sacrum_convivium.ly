@@ -8,7 +8,6 @@
 }
 
 global = {
-  \tempo 4 = 55
   \key fis \major
 }
 
@@ -235,5 +234,7 @@ global = {
     }
   >>
   \layout { }
-  \midi { }
+  \midi {
+    \tempo 4 = 55
+  }
 }
