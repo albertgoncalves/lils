@@ -1,4 +1,4 @@
-#(set-default-paper-size "letter" 'landscape)
+% #(set-default-paper-size "letter" 'landscape)
 
 \paper {
   indent = 0\mm
