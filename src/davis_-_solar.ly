@@ -20,7 +20,7 @@ count_in = \new DrumStaff {
   \global
   \drummode
   {
-    cl4 cl cl cl |
+    cl4 cl  cl  cl  |
   }
 }
 

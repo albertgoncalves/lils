@@ -17,7 +17,7 @@ count_in = \new DrumStaff {
   \global
   \drummode
   {
-    cl4 cl cl cl |
+    cl4 cl  cl  cl  |
   }
 }
 
@@ -27,7 +27,7 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
   \relative c''
   \repeat volta 2
   {
-  % -------+-------|-------+-------|-------+-------|-------+-------|
+    % ------+-------|-------+-------|-------+-------|-------+-------|
     r8      g4.                     g4              g               |
     g4.                     g4              g4              g8      |
     bes2                            aes4            ees8    g       |
