@@ -33,9 +33,9 @@ pulse = \new DrumStaff {
 }
 
 music = \new DrumStaff \with {
-  % \override Stem.neutral-direction = #up
-  % \override StaffSymbol.line-count = #1
-  % drumStyleTable = #percussion-style
+  \override Stem.neutral-direction = #up
+  \override StaffSymbol.line-count = #1
+  drumStyleTable = #percussion-style
 } {
   \global
   \drummode

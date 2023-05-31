@@ -52,9 +52,11 @@ chord_names = {
     % NOTE: See `https://lilypond.org/doc/v2.21/Documentation/notation/chord-mode#extended-and-altered-chords`.
     \chordmode {
       c\breve:m7        |
+                        |
       g1:m7             |
       c:7               |
       f\breve:7+        |
+                        |
       f1:m7             |
       bes:7             |
       ees:7+            |
