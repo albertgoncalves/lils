@@ -51,7 +51,7 @@ chord_names = {
     % NOTE: See `https://lilypond.org/doc/v2.21/Documentation/notation/common-chord-modifiers`.
     % NOTE: See `https://lilypond.org/doc/v2.21/Documentation/notation/chord-mode#extended-and-altered-chords`.
     \chordmode {
-      c\breve:m7        |
+      c\breve:m6        |
                         |
       g1:m7             |
       c:7               |

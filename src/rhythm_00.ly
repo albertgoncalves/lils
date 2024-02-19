@@ -12,20 +12,16 @@ k = 4
 
 count_in = \new DrumStaff {
   \global
-  \drummode
-  {
+  \drummode {
     cl4 cl  cl  cl  |
   }
 }
 
 pulse = \new DrumStaff {
   \global
-  \drummode
-  {
-    \repeat volta \k
-    {
-      \repeat unfold 6
-      {
+  \drummode {
+    \repeat volta \k {
+      \repeat unfold 6 {
         r4  hh  r   hh  |
       }
     }
@@ -38,10 +34,8 @@ music = \new DrumStaff \with {
   drumStyleTable = #percussion-style
 } {
   \global
-  \drummode
-  {
-    \repeat volta \k
-    {
+  \drummode {
+    \repeat volta \k {
       % ------+-------|-------+-------|-------+-------|-------+-------|
       sn2                             sn4.                    sn8     |
       r2                              sn2                             |
@@ -54,16 +48,13 @@ music = \new DrumStaff \with {
 }
 
 \score {
-  {
-    \music
-  }
+  \music
   \layout { }
 }
 
 \score {
   \applySwing 8 #'(5 4)
-  \unfoldRepeats
-  {
+  \unfoldRepeats {
     \count_in
     <<
       \music
