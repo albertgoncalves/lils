@@ -110,20 +110,25 @@ chord_names = {
 }
 
 \score {
+  \transpose c ees
   <<
     \chord_names
     \music
   >>
+
   \layout { }
 }
 
 \score {
   \unfoldRepeats
   \applySwing 8 #'(4 3)
+
+  \transpose c ees
   {
     \count_in
     \music
   }
+
   \midi {
     \tempo 4 = 160
   }
