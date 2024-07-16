@@ -43,7 +43,7 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
     r8      b4.                     bes4            a4              |
     b4              bes8    a ~     a2                              |
 
-    c2 ~                            c8      a       f       e ~     |
+    c2                              r8      a       r       f       |
     e2                              r4              d8      e       |
     g4.                     bes8    r2                              |
     f8      ees     r       aes8    r2                              |
