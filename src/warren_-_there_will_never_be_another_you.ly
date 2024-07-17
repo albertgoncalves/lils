@@ -83,6 +83,7 @@ chord_names = {
       g4:7                    |
 
       c\breve:7+              |
+                              |
       b1:m7.5-                |
       e:7                     |
 
@@ -91,8 +92,8 @@ chord_names = {
       c:7                     |
 
       f:7+                    |
-      d2:m7.5-    g:7         |
-      c1:7+                   |
+      bes:7                   |
+      c:7+                    |
       a:m7                    |
 
       d:7                     |
@@ -101,32 +102,38 @@ chord_names = {
       g:7                     |
 
       f:7+                    |
-      d2:m7.5-    g:7         |
-      c\breve:7+              |
+      bes:7                   |
+      c:7+                    |
+      fis2:m7.5-  b:7         |
 
-      c2:7+       b:7         |
-      e:7         a:7         |
+      c2:7+       f:7         |
+      e:m7        a:7         |
       d:m7        g:7         |
-      c1:6                    |
+      c:7+        f:m6        |
     }
   }
 }
 
 \score {
+  \transpose c ees,
   <<
     \chord_names
     \music
   >>
+
   \layout { }
 }
 
 \score {
   \unfoldRepeats
   \applySwing 8 #'(4 3)
+
+  \transpose c ees,
   {
     \count_in
     \music
   }
+
   \midi {
     \tempo 4 = 140
   }
