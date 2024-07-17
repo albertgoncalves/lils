@@ -88,6 +88,7 @@ chord_names = {
       e:7                     |
 
       a\breve:m7              |
+                              |
       g1:m7                   |
       c:7                     |
 
