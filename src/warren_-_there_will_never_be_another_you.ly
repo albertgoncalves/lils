@@ -34,9 +34,9 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
 
         % ------+-------|-------+-------|-------+-------|-------+-------|
         a               b               c               d               |
-        e               g               d               c               |
+        e               g               d4.                     c8      |
         d1 ~                                                            |
-        d2                              r8      e4.                     |
+        d2.                                             e4              |
 
         % ------+-------|-------+-------|-------+-------|-------+-------|
         c4              d               e               g               |
@@ -50,10 +50,10 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
             c               a               g               f               |
             e               d               e               f               |
             g               e               d               c               |
-            d               c8      d ~     d4              c               |
+            d               c               d4.                     c8      |
 
             % ------+-------|-------+-------|-------+-------|-------+-------|
-            b'              a               g               fis             |
+            b'4             a               g               fis             |
             e               d               e               d               |
             f1 ~                                                            |
             f2.                                             g,4             |
@@ -61,9 +61,9 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
           \volta 2 {
             % ------+-------|-------+-------|-------+-------|-------+-------|
             c'              a               g               f               |
-            e               d               e               f               |
-            g               e               d               c8      b' ~    |
-            b2                              r8      a4.                     |
+            e               d               e4.                     f8      |
+            g4              e               d               c               |
+            b'2.                                            a4              |
 
             % ------+-------|-------+-------|-------+-------|-------+-------|
             g4              c               b               a               |
@@ -135,6 +135,6 @@ chord_names = {
   }
 
   \midi {
-    \tempo 4 = 140
+    \tempo 4 = 190
   }
 }
