@@ -56,7 +56,7 @@ music = \new Staff \with { midiInstrument = "muted trumpet" } {
         e,8     f       e       c' ~    c2                              |
         \tuplet 3/2 { e,4 f e b' c d }                                  |
         e1                                                              |
-        b2.                                             r4              |
+        b                                                               |
         a8      fis4            g8      e4              fis             |
         d2                              b'                              |
         g1 ~                                                            |
