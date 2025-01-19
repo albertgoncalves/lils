@@ -31,12 +31,12 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
     r8      g4.                     g4              g               |
     g4.                     g8 ~    g4              g               |
     bes2                            \tuplet 3/2 { aes4 c, ees }     |
-    g4.                     f8 ~    f2                              |
+    g4.                     e8 ~    e2                              |
 
     r8      g4.                     g4              g               |
     g4.                     g8 ~    g4              g               |
     c2                              \tuplet 3/2 { bes4 des, f }     |
-    c'4.                    bes8 ~  bes2                            |
+    c'4.                    a8 ~    a2                              |
 
     r8      bes4.                   a4              aes4            |
     bes4            a8      aes ~   aes2                            |
