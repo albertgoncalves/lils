@@ -42,7 +42,7 @@ music = \new Staff \with { midiInstrument = "muted trumpet" } {
     g4      f8    ees d   c4        ges'8 ~ |
     ges4    f8    ees des c4        f8 ~    |
     f1                                      |
-    r8  d   ees   f   g   aes b4            |
+    r8  d   ees   f   g   aes b4      \bar "."
   }
 }
 

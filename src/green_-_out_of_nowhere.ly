@@ -76,23 +76,27 @@ chord_names = {
                               |
       bes1:m7                 |
       ees:7                   |
+
       g\breve:7+              |
                               |
       b1:m7                   |
       e:7                     |
 
       a:m7                    |
-      b2:m7.5-    e:7         |
+      b2:m7.5-    e:7.9-      |
       a\breve:m7              |
                               |
+
       ees:7                   |
+                              |
       a1:m7                   |
       d:7                     |
 
       a:m7                    |
-      b2:m7.5-    e:7         |
+      b2:m7.5-    e:7.9-      |
       a1:m7                   |
-      f:7                     |
+      f:7.11+                 |
+
       b2:m7       bes:dim7    |
       a:m7        d:7         |
       g1:6                    |

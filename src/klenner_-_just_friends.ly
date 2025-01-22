@@ -77,7 +77,7 @@ chord_names = {
       \set noChordSymbol = ""
 
       %-----------+-----------|
-      \partial 2  r2          |
+      \partial 2  g2:7        |
 
       c\breve:7+              |
                               |

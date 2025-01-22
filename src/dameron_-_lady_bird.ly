@@ -46,7 +46,7 @@ music = \new Staff \with { midiInstrument = "tenor sax" } {
     c2 ~                            c8      a       f       e ~     |
     e2                              cis4            d8      g ~     |
     g1 ~                                                            |
-    g1                                                              |
+    g1                                                        \bar "."
   }
 }
 
@@ -57,12 +57,12 @@ chord_names = {
       c\breve:7+                      |
                                       |
       f1:m7                           |
-      bes:7                           |
+      bes:7.11+.13                    |
 
       c\breve:7+                      |
                                       |
       bes1:m7                         |
-      ees:7                           |
+      ees:7.11+.13                    |
 
       aes\breve:7+                    |
                                       |
